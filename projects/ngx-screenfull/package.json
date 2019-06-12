@@ -1,0 +1,26 @@
+{
+	"name": "ngx-screenfull",
+	"version": "0.0.1",
+	"description": "Angular wrapper for screenfull.js library.",
+	"license": "MIT",
+	"repository": "GeorgeKnap/ngx-screenfull",
+	"author": {
+		"name": "George Knap",
+		"email": "knap.george@gmail.com",
+		"url": "https://github.com/GeorgeKnap/screenfull.js"
+	},
+	"main": "dist/screenfull.js",
+	"files": [
+		"dist/screenfull.js",
+		"dist/screenfull.d.ts"
+	],
+	"keywords": [
+		"browser",
+		"fullscreen"
+	],
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  },
+	"types": "dist/screenfull.d.ts"
+}
